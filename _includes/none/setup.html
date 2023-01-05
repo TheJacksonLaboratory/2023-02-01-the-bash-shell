@@ -1,0 +1,52 @@
+<div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
+  <h3>The Bash Shell</h3>
+  <p>
+    Bash is a commonly-used shell that gives you the power to do simple tasks more quickly.
+  </p>
+
+  <div>
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+      <li role="presentation" class="active"><a data-os="windows" href="#shell-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
+      <li role="presentation"><a data-os="macos" href="#shell-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
+      <li role="presentation"><a data-os="linux" href="#shell-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <article role="tabpanel" class="tab-pane active" id="shell-windows">
+<ol>
+        <li>Download and install <a href="https://mobaxterm.mobatek.net/download.html">MobaXterm</a>.
+	</li>	 
+</ol>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="shell-macos">
+        <p>
+          The default shell in some versions of macOS is Bash, and
+	  Bash is available in all versions, so no need to install anything.
+	  You access Bash from the Terminal (found in
+	  <code>/Applications/Utilities</code>).
+          See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
+          for an example on how to open the Terminal.
+          You may want to keep Terminal in your dock for this workshop.
+	</p>
+	<p>
+          To see if your default shell is Bash type <code>echo $SHELL</code> in
+          Terminal and press the enter/return key.  If the message printed does
+	  not end with '/bash' then your default is something else and you can run
+	  Bash by typing <code>bash</code>.
+        </p>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="shell-linux">
+        <p>
+          The default shell is usually Bash and there is usually no need to
+          install anything.
+        </p>
+        <p>
+          To see if your default shell is Bash type <code>echo $SHELL</code> in
+          a terminal and press the enter/return key.  If the message printed does
+	  not end with '/bash' then your default is something else and you can run
+	  Bash by typing <code>bash</code>.
+        </p>
+      </article>
+    </div>
+  </div>
+</div> {% comment %} End of 'shell' section. {% endcomment %}
